@@ -1,15 +1,26 @@
 GRUPPO 7 - La pratica perduta
 
-1 - Prendi tutti i fogli di un documento
 
-2 - Per ogni foglio del documento guardare numero pagina
-    - Ordina in ordine crescente i fogli
+1 - Prendi tutti i fogli
 
-3 - Per ogni foglio del documento
-     - Prendi il foglio che c'è in cima 
-     - Scansiona fronte
-     ? SE trovi il retro
-         - Scansiona retro    
+2 - Disponi in ordine crescente le pagine 
 
-4-  Salva la scansione in formato digitale
-       
+  - FINCHE' il numero di ogni pagina non è minore a quello della pagina successiva
+    
+        PER ogni foglio del documento        
+                
+        ? SE il numero della pagina non è minore a quello della pagina successiva
+            - Non fare nulla
+
+        : ALTRIMENTI sposta il foglio prima di una posizione
+
+3 - PER ogni foglio del documento
+
+        1. Prendi il foglio che c'è in cima
+        2. Scansiona il fronte
+
+        ? SE il retro non è bianco
+         - 3. Scansiona il retro
+
+4 - Salva la scansione del documento in formato digitale
+
